@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 12vh;
+    text-align: center;
+    background-color: blue;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: row; /*Modelo de filas horizontales*/
+    flex-wrap: nowrap; /*No permite el salto de linea*/
+    justify-content: space-between;
+}
+header figure{
+    border: 2px solid black;
+    height: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+ header figure img{
+height: 12vh;
+} 
+header h1{
+    margin-right: 20px;
+}
+h1{
+    font-size: 8vh;
+    color: white;
+}
+
+
+header nav{
+    border: 0px solid black;
+    margin-right: 10px;
+}
+
+header nav a{
+    color: yellow;
+    display: inline-block;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 2px;
+    
+}
+header nav a:hover{
+    text-decoration: underline;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+a{
+  text-decoration: none; 
+  color: black;
+  margin: 10px;
+}
+
+body{
+    min-height: 100vh ;
+    border: 2px solid black;
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;    
+}
+
+main{
+height: 80vh;
+}
+footer{
+    height: 10vh;
+}
