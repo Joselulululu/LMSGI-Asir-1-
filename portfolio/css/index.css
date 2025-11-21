@@ -66,6 +66,18 @@ body{
 
 main{
 height: 80vh;
+display: flex;
+flex-direction: row;
+}
+main nav{
+
+}
+
+main section{
+
+}
+main aside{
+    
 }
 footer{
     height: 10vh;
