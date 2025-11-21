@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PowerPlanet</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./css/detalle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>PowerPlanet</title>
 </head>
+ 
 <body>
-   <header>
+       <header>
         <div id="menu">
             <i class="fa-solid fa-bars"></i>
         </div>
@@ -27,31 +30,105 @@
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-solid fa-user"></i>
         </div>
-        <main>
-            <nav>
+    </header> 
+    <main>
+        <div class="orden">
+        <nav>
+            <a href="#">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <i class="fa-solid fa-angle-right"></i>
+            <a href="#">Informática</a>
+            <i class="fa-solid fa-angle-right"></i>
+            <a href="#">Ordenadores portátiles</a>
+            <i class=" fa-solid fa-angle-right"></i>
+            <a href="#">Ordenadores portátiles Chuwi</a>
+        </nav>
+        </div>
 
-            </nav>
-            <div id="container">
-            <figure>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+
+        <div id="product-container">
+            
+            <figure class="aside">
+                <i class="fa-solid fa-angle-up"></i>
+                <img src="https://www.powerplanetonline.com/cdnassets/products/95625/chuwi_corebook_x_gris_2_ad_l.jpg"
+                    alt="">
+                <img src="https://www.powerplanetonline.com/cdnassets/products/95625/chuwi_corebook_x_gris_3_ad_l.jpg"
+                    alt="">
+                <img src="https://www.powerplanetonline.com/cdnassets/products/95625/chuwi_corebook_x_gris_4_ad_l.jpg"
+                    alt="">
+                <img src="https://www.powerplanetonline.com/cdnassets/products/95625/chuwi_corebook_x_gris_5_ad_l.jpg"
+                    alt="">
+                <i class="fa-solid fa-angle-down"></i>
             </figure>
-            <figure>
-                <img src="" alt="">
+            <figure class="Foto">
+                <img src="https://www.powerplanetonline.com/cdnassets/products/95625/chuwi_corebook_x_gris_1_l.jpg"
+                    alt="">
             </figure>
-            <div>
-                <h1>
-                    Chuwi CoreBook X AMD R5 7430U/16GB/512GB/W11 14"
-                </h1>
-            </div>
-            <div>
+            <div id="product-right-column">
+                <div class="NameItem">
+                    <h1>
+                        Chuwi CoreBook X AMD R5 7430U/16GB/512GB/W11 14"
+                    </h1>
+                </div>
                 
-            </div>
-            </div>
+                <div class="Valoraciones">
+                    <span>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    <a href="#"><i class="fa-solid fa-star"></i></a>
+                    </span>
+                    
+                    <p>5.00 (3 opiniones) <a href="">¡Opina!</a></p>
+                </div>
 
-        </main>
-    </header>
-    </body> 
+                <div class="ContainerPrecios">
+                        <p class="descuento">-28%</p>
+
+                        <p class="precio">359,<span>99€</span></p>
+                </div>
+
+                <div class="PrecioRecomendado">
+                    <p>
+                        Precio recomendado <del>499.00€</del>
+                    </p>
+                    <p class="gris">
+                        <span>Los precios incluye IVA</span>
+                    </p>
+                </div>
+                <div class="Envio">
+                    <div id="truck"><i class="fa-solid fa-truck"></i></div>
+                    <div>
+                    <p>Disponibilidad: <span>¡En Stock! Recibelo el Lunes, 24 Nov</span></p>
+                    <div class="flex">
+                    <p class="bot">Envio: <span class="pink">¡Gratis!</span></p>
+                    <pre>                           Devolucion:       <b>Hasta 8 de </b>
+                            Gratis:             <b>Febrero</b>
+                    </pre>
+                    </div>
+                    <p>Garantia: <b>3 años</b></p>
+                    </div>
+                </div>
+                <div>
+                    <li>
+                        Recogida disponible en nuestra tienda de Murcia
+                    </li>
+                </div>
+
+                <div class="Comprar">
+                    <div class="Cantidad">
+                        <input type="text" data-validation="number" data-validation-allowing="range[1;100]" value="1" data-input="true" min="1" max="100">
+                    </div>
+                    
+                    <div class="BotonComprar">
+                        <nav><a href="">¡COMPRAR AHORA!</a></nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
